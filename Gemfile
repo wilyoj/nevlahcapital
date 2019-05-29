@@ -12,7 +12,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'capybara', '>= 2.15'
+  gem 'capybara', '2.15'
   gem 'selenium-webdriver'
 end
 group :development do
@@ -28,6 +28,7 @@ gem 'high_voltage'
 gem 'jquery-rails'
 gem 'pg', '~> 0.18'
 gem 'pundit'
+gem 'binding_of_caller'
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
